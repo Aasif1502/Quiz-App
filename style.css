@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(103, 103, 189);
+
+}
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto 0;
+    background-color: rgb(183, 209, 247);
+    padding: 20px;
+    border-radius: 7px;
+}
+h2 {
+    margin: 5px 0 14px;
+    padding: 0 0 8px;
+    font-size: 20px;
+     
+    border-bottom: solid black 1px;
+}
+h3 {
+    font-size: 15px;
+    margin-top: 0;
+    
+}
+.optionList {
+    display: grid;
+}
+.option {
+    text-align: left;
+    margin-bottom: 13px;
+    font-size: 10px;
+    padding: 5px 5px;
+    background-color: #fff;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+.option:hover:not([disabled]) {
+    background-color: rgb(90,90,90);
+    color: white;
+}
+.option:disabled {
+    cursor: no-drop;
+}
+.nextButton {
+      margin: 10px 50% 10px;
+     transform: translateX(-50%);
+    font-size: 8px;
+    padding: 4px 20px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 2px;
+    border: none;   
+}
+.correct {
+    background-color: darkseagreen;
+}
+ .incorrect {
+    background-color: chocolate;
+ }
